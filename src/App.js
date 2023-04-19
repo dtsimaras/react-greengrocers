@@ -2,21 +2,10 @@ import './styles/reset.css'
 import './styles/index.css'
 import initialStoreItems from './store-items'
 import { useState, useEffect } from 'react'
-/*
-Here's what a store item should look like
-{
-  id: '001-beetroot',
-  name: 'beetroot',
-  price: 0.35
-}
 
-What should a cart item look like? 🤔
-*/
-
-console.log(initialStoreItems)
-
+// TODO: break into components
+// TODO: complete extensions
 export default function App() {
-  // Setup state here...
   const [cartProducts, setCartProducts] = useState([])
   const [total, setTotal] = useState(0.00)
 
