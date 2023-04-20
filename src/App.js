@@ -3,7 +3,7 @@ import './styles/index.css'
 import initialStoreItems from './store-items'
 import { useState, useEffect } from 'react'
 
-// TODO: break into components
+// TODO:   break into components
 // TODO: complete extensions
 export default function App() {
   const [cartProducts, setCartProducts] = useState([])
